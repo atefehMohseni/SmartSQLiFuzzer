@@ -1,12 +1,17 @@
 # SmartSQLiFuzzer
 Version 0.9
 
-SmartSQLiFuzzer contains two major applications:
-'sqli' which stands for generating mutated SQLi queries to a specified server by using Genetic Algorithm and
-'testwebapp' which is plays like a WAF to that victim website server to prevent SQLi attacks
-The result shown after ruuning the program (with more than two generations in genetic AL.) the WAF is unable to detect SQLi.
 
-Installation guid :
-run .exe files existed in Debug folder in eacha app(the details of installation will be added ASAP)
+SmartSQLiFuzzer contains two primary applications:
 
-Note: In this version the SQLi attack will be targeted the http headers only
+'sqli' which generates mutated SQLi queries to a web server by using Genetic Algorithm and
+
+'testwebapp' which is a simplified WAF (Web Application Firewall) protecting the victim web server from SQLi attacks.
+
+
+You might run the program with more than two generations in genetic AL. to circumvent the WAF SQLi detection mechanism.
+
+Installation guide :
+run .exe files existed in Debug folder in each app(the details of installation will be added ASAP)
+
+Note: In this version, the SQLi attack will be targeted the HTTP headers only.
